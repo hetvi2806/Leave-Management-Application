@@ -220,4 +220,4 @@ class RequestLeaveFragment : Fragment() {
         tvTotalDays.setTextColor(resources.getColor(android.R.color.black))
         spinnerLeaveType.setSelection(0)
     }
-}+
+}
