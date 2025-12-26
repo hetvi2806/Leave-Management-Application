@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+
+    <group
+        android:checkableBehavior="single">
+
+
+        <item
+            android:id="@+id/nave_dashboard"
+            android:icon="@drawable/home_24px"
+            android:title="Dashboard" />
+        <item
+            android:id="@+id/nave_RequestLeave"
+            android:icon="@drawable/request_quote_24px"
+            android:title="Request Leave"
+            />
+        <item
+            android:id="@+id/nave_Approvals"
+            android:icon="@drawable/approval_24px"
+
+            android:title="Approvals"
+            />
+        <item
+            android:id="@+id/nave_History"
+            android:icon="@drawable/history_24px"
+
+            android:title="History"
+            />
+        <item
+            android:id="@+id/nave_Profile"
+            android:icon="@drawable/sharp_admin_panel_settings_24"
+
+            android:title="Profile"
+            />
+        
+
+    </group>
+    <item
+        android:title="">
+
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/logout_24px"
+                android:title="Logout"/>
+        </menu>
+
+    </item>
+
+</menu>

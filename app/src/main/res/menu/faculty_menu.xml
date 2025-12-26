@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+
+    <group
+        android:checkableBehavior="single">
+
+
+        <item
+            android:id="@+id/nave_dashboard"
+            android:icon="@drawable/home_24px"
+            android:title="Approve" />
+        <item
+            android:id="@+id/nave_Pandding"
+            android:icon="@drawable/request_quote_24px"
+            android:title="Pending"
+            />
+        <item
+            android:id="@+id/nave_Approvals"
+            android:icon="@drawable/approval_24px"
+
+            android:title="Profile"
+            />
+
+
+
+    </group>
+    <item
+        android:title="">
+
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/logout_24px"
+                android:title="Logout"/>
+        </menu>
+
+    </item>
+
+</menu>

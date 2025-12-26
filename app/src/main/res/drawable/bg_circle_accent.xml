@@ -1,0 +1,16 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+
+    <!-- Accent background color -->
+    <solid android:color="@color/green" />
+
+    <!-- Optional shadow/elevation effect -->
+    <size
+        android:width="36dp"
+        android:height="36dp" />
+
+    <stroke
+        android:width="2dp"
+        android:color="@android:color/white" />
+
+</shape>
